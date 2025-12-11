@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #f888d6;
+    --secondary-color:#ff77d6;
+    --terciary-color:#ffdef5;
+    --quaternary-color:#ffbceb;
+}
+.content{
+    display: flex;
+    height: 100vh;
+    width: 80vw;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+#container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background: #fff5f5;
+    background: linear-gradient(0deg,rgba(255, 245, 245, 1) 0%, rgba(255, 161, 232, 1) 100%);
+}
+#item{
+    width: 30vw;
+    height: 50vh;
+}
+#imagem{
+    background-image: url("https://receitinhasdadani.com.br/wp-content/uploads/2024/10/Bolo-Matilda-de-chocolate-com-briganache-1140x720.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+#texto{
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    width: 30vw;
+    height: 50vh;
+    background-color:#ff77d671;;
+    border-radius: 20px;
+}
+
+h4 {
+    margin-top: 40px;
+}
+h2{
+    margin-top: 20px;
+}
